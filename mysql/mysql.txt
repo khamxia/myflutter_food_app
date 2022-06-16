@@ -1,0 +1,28 @@
+ ***create Database fooddata **
+** create table shoptb**
+CREATE TABLE shoptb(
+    id int NOT NULL PRIMARY KEY,
+    name text COLLATE utf8_unicode_ci NOT NULL,
+    email text COLLATE utf8_unicode_ci NOT NULL,
+    user text COLLATE utf8_unicode_ci NOT NULL,
+    password text COLLATE utf8_unicode_ci NOT NULL,
+    typeuser text COLLATE utf8_unicode_ci NOT NULL,
+    nameshop text COLLATE utf8_unicode_ci NOT NULL,
+    addressshop text COLLATE utf8_unicode_ci NOT NULL,
+    phoneshop text COLLATE utf8_unicode_ci NOT NULL,
+    urlpicture text COLLATE utf8_unicode_ci NOT NULL,
+    lat text COLLATE utf8_unicode_ci NOT NULL,
+    lng text COLLATE utf8_unicode_ci NOT NULL,
+    token Text COLLATE utf8_unicode_ci NOT NULL
+)
+
+
+** create table foodstb**
+CREATE TABLE foodstb (
+    id int NOT NULL PRIMARY KEY,
+    idshop Text COLLATE utf8_unicode_ci NOT NULL,
+    namefood Text COLLATE utf8_unicode_ci NOT NULL,
+    pathimage Text COLLATE utf8_unicode_ci NOT NULL,
+    price Text COLLATE utf8_unicode_ci NOT NULL,
+    detail Text COLLATE utf8_unicode_ci NOT NULL
+)
