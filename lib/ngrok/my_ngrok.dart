@@ -1,4 +1,4 @@
 
 class MyNgrok{
-  String domainName = 'http://ac86-115-84-117-190.ngrok.io';
+  String domainName = 'http://58e3-115-84-90-153.ngrok.io';
 }
